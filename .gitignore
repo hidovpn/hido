@@ -1,0 +1,10 @@
+# File cài đặt chỉ up lên GitHub Releases, không commit vào repo
+*.apk
+*.aab
+*.dmg
+*.exe
+*.msi
+*.ipa
+*.zip
+dist/
+.DS_Store
