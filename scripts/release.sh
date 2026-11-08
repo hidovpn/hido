@@ -47,7 +47,7 @@ ls "$OUT"/Hido-* >/dev/null 2>&1 || { echo "Không có file nào để up"; exit
 AAPT=$(ls -d /Volumes/UGREEN/Hido/toolchains/android-sdk/build-tools/*/aapt2 2>/dev/null | tail -1 || true)
 for apk in "$OUT"/*.apk; do
   [[ -f "$apk" && -n "$AAPT" ]] || continue
-  line=$("$AAPT" dump badging "$apk" | head -1)
+  line=$("$AAPT" dump badging "$apk" | awk 'NR==1')
   [[ "$line" == *"name='com.hido.vpn'"* ]] || { echo "⚠️  $(basename "$apk") không phải com.hido.vpn: $line"; exit 1; }
   [[ "$line" == *"versionName='$VERSION'"* ]] || { echo "⚠️  $(basename "$apk") sai phiên bản: $line"; exit 1; }
 done
