@@ -47,7 +47,7 @@ All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links belo
 | **Android** | `.apk` | arm64-v8a (most phones) | [Hido-2.0.5-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-arm64-v8a.apk) |
 | **Android** | `.apk` | armeabi-v7a (older 32-bit phones) | [Hido-2.0.5-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-armeabi-v7a.apk) |
 | **Android** | `.apk` | x86_64 (emulators, Chromebooks) | [Hido-2.0.5-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-x86_64.apk) |
-| **macOS** | `.dmg` | Apple Silicon (M1 and later) | [Hido-2.0.5-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-macos-arm64.dmg) |
+| **macOS** | `.dmg` | Apple Silicon (M1 and later) · notarized | [Hido-2.0.5-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-macos-arm64.dmg) |
 | **Windows** | `.exe` installer | x64 | [Hido-2.0.5-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-windows-amd64-setup.exe) |
 | **Windows** | `.zip` portable | x64 | [Hido-2.0.5-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-windows-amd64.zip) |
 
@@ -62,6 +62,7 @@ All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links belo
 - **Sign in, not set up.** A provider code and your account are all it takes.
 - **Your account in the app.** Plan, expiry, data usage and devices, right next to the connect button.
 - **Smart routing.** Pick your country on first launch and local sites go direct, everything else through the VPN.
+- **Your provider's config stays sealed.** Server configs are stored encrypted on the device and kept out of backups.
 - **Updates itself.** Android and the Windows installer download new versions from this repository and check them against `SHA256SUMS` before installing.
 
 ---
@@ -106,11 +107,7 @@ All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links belo
 
 ### macOS
 1. Download **`Hido-2.0.5-macos-arm64.dmg`**, open it and drag **Hido** into **Applications**.
-2. The first launch is blocked because the app is not notarized yet: open **System Settings → Privacy & Security** and click **Open Anyway**.
-   If macOS still refuses, run once in Terminal:
-   ```bash
-   xattr -dr com.apple.quarantine /Applications/Hido.app
-   ```
+2. Launch Hido from Applications — the app is signed with Developer ID and notarized by Apple, so it opens normally.
 3. Approve the network / administrator prompt when you turn on TUN mode, then connect.
 
 ### Windows

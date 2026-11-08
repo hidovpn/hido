@@ -47,7 +47,7 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 | **Android** | `.apk` | arm64-v8a (hầu hết điện thoại) | [Hido-2.0.5-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-arm64-v8a.apk) |
 | **Android** | `.apk` | armeabi-v7a (máy 32-bit đời cũ) | [Hido-2.0.5-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-armeabi-v7a.apk) |
 | **Android** | `.apk` | x86_64 (giả lập, Chromebook) | [Hido-2.0.5-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-x86_64.apk) |
-| **macOS** | `.dmg` | Apple Silicon (M1 trở lên) | [Hido-2.0.5-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-macos-arm64.dmg) |
+| **macOS** | `.dmg` | Apple Silicon (M1 trở lên) · đã notarize | [Hido-2.0.5-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-macos-arm64.dmg) |
 | **Windows** | bộ cài `.exe` | x64 | [Hido-2.0.5-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-windows-amd64-setup.exe) |
 | **Windows** | `.zip` không cần cài | x64 | [Hido-2.0.5-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-windows-amd64.zip) |
 
@@ -62,6 +62,7 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 - **Đăng nhập là dùng.** Chỉ cần mã nhà cung cấp và tài khoản của bạn.
 - **Tài khoản ngay trong app.** Gói, hạn dùng, lưu lượng và thiết bị nằm cạnh nút kết nối.
 - **Định tuyến thông minh.** Chọn quốc gia lúc mở app lần đầu: trang trong nước đi thẳng, còn lại đi qua VPN.
+- **Cấu hình được niêm phong.** Cấu hình máy chủ của nhà cung cấp được mã hoá trên máy và không nằm trong bản sao lưu.
 - **Tự cập nhật.** Android và bản cài Windows tự tải phiên bản mới từ repo này và đối chiếu `SHA256SUMS` trước khi cài.
 
 ---
@@ -106,11 +107,7 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 
 ### macOS
 1. Tải **`Hido-2.0.5-macos-arm64.dmg`**, mở ra và kéo **Hido** vào **Applications**.
-2. Lần mở đầu bị chặn vì app chưa được Apple công chứng: vào **Cài đặt hệ thống → Quyền riêng tư & Bảo mật**, bấm **Vẫn mở**.
-   Nếu macOS vẫn không cho mở, chạy một lần trong Terminal:
-   ```bash
-   xattr -dr com.apple.quarantine /Applications/Hido.app
-   ```
+2. Mở Hido trong Applications — app đã ký Developer ID và được Apple công chứng (notarize) nên mở bình thường.
 3. Đồng ý khi được hỏi quyền mạng / quản trị lúc bật TUN, rồi kết nối.
 
 ### Windows
