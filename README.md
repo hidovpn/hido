@@ -40,16 +40,16 @@
 
 ## Downloads
 
-All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links below point to the current stable release, **v2.0.5**:
+All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links below point to the current stable release, **v2.0.6**:
 
 | Platform | Format | Architecture | Download |
 | :-- | :-- | :-- | :-- |
-| **Android** | `.apk` | arm64-v8a (most phones) | [Hido-2.0.5-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-arm64-v8a.apk) |
-| **Android** | `.apk` | armeabi-v7a (older 32-bit phones) | [Hido-2.0.5-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-armeabi-v7a.apk) |
-| **Android** | `.apk` | x86_64 (emulators, Chromebooks) | [Hido-2.0.5-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-android-x86_64.apk) |
-| **macOS** | `.dmg` | Apple Silicon (M1 and later) · notarized | [Hido-2.0.5-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-macos-arm64.dmg) |
-| **Windows** | `.exe` installer | x64 | [Hido-2.0.5-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-windows-amd64-setup.exe) |
-| **Windows** | `.zip` portable | x64 | [Hido-2.0.5-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.5/Hido-2.0.5-windows-amd64.zip) |
+| **Android** | `.apk` | arm64-v8a (most phones) | [Hido-2.0.6-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.6/Hido-2.0.6-android-arm64-v8a.apk) |
+| **Android** | `.apk` | armeabi-v7a (older 32-bit phones) | [Hido-2.0.6-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.6/Hido-2.0.6-android-armeabi-v7a.apk) |
+| **Android** | `.apk` | x86_64 (emulators, Chromebooks) | [Hido-2.0.6-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.6/Hido-2.0.6-android-x86_64.apk) |
+| **macOS** | `.dmg` | Apple Silicon (M1 and later) · notarized | [Hido-2.0.6-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.6/Hido-2.0.6-macos-arm64.dmg) |
+| **Windows** | `.exe` installer | x64 | [Hido-2.0.6-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.6/Hido-2.0.6-windows-amd64-setup.exe) |
+| **Windows** | `.zip` portable | x64 | [Hido-2.0.6-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.6/Hido-2.0.6-windows-amd64.zip) |
 
 > **Not sure which Android file?** Pick **arm64-v8a** — it fits nearly every phone from the last several years.
 >
@@ -101,17 +101,17 @@ All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links belo
 ## Getting Started
 
 ### Android
-1. Download **`Hido-2.0.5-android-arm64-v8a.apk`** from the [Releases page](https://github.com/hidovpn/hido/releases/latest).
+1. Download **`Hido-2.0.6-android-arm64-v8a.apk`** from the [Releases page](https://github.com/hidovpn/hido/releases/latest).
 2. Open the file and allow **Install unknown apps** when prompted.
 3. Launch Hido, enter your provider code, sign in, grant the VPN permission and tap **Connect**.
 
 ### macOS
-1. Download **`Hido-2.0.5-macos-arm64.dmg`**, open it and drag **Hido** into **Applications**.
+1. Download **`Hido-2.0.6-macos-arm64.dmg`**, open it and drag **Hido** into **Applications**.
 2. Launch Hido from Applications — the app is signed with Developer ID and notarized by Apple, so it opens normally.
 3. Approve the network / administrator prompt when you turn on TUN mode, then connect.
 
 ### Windows
-1. Download **`Hido-2.0.5-windows-amd64-setup.exe`** from the [Releases page](https://github.com/hidovpn/hido/releases/latest).
+1. Download **`Hido-2.0.6-windows-amd64-setup.exe`** from the [Releases page](https://github.com/hidovpn/hido/releases/latest).
 2. Run the installer. If SmartScreen appears: **More info → Run anyway**, then approve the UAC prompt.
 3. Launch Hido, enter your provider code, sign in and connect.
 
@@ -124,7 +124,7 @@ shasum -a 256 -c SHA256SUMS --ignore-missing
 ```
 **Windows (PowerShell)**
 ```powershell
-Get-FileHash .\Hido-2.0.5-windows-amd64-setup.exe -Algorithm SHA256
+Get-FileHash .\Hido-2.0.6-windows-amd64-setup.exe -Algorithm SHA256
 ```
 Compare the result with the matching line in `SHA256SUMS`.
 
