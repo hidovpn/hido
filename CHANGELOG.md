@@ -2,6 +2,11 @@
 
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/), đánh số theo [SemVer](https://semver.org/lang/vi/).
 
+## [2.0.7] - 2026-11-09
+### Sửa lỗi / Fixes
+- Khi đang kết nối, các yêu cầu tới tài khoản nhà cung cấp, tra mã nhà cung cấp và cập nhật đăng ký đi thẳng, không qua máy chủ VPN (account and registry calls go direct while connected): trang Tài khoản, nút Làm mới và Cập nhật chạy được cả ở chế độ Thông minh lẫn Toàn bộ, và nhà cung cấp thấy đúng IP của máy.
+- Cổng đi thẳng chỉ nghe trên máy (127.0.0.1) và yêu cầu mật khẩu riêng, được mã hoá trên máy.
+
 ## [2.0.6] - 2026-11-09
 ### Mới
 - Trang **Kiểm tra mở khoá** làm lại: hai nhóm Dịch vụ quốc tế (Netflix, YouTube Premium, TikTok) và Dịch vụ AI (ChatGPT, Google Gemini, Claude), nút "Kiểm tra ngay", hiện vùng mở khoá của từng dịch vụ.
@@ -28,5 +33,6 @@
 - Chế độ System Proxy và TUN, tự chọn máy chủ nhanh nhất.
 - Tự cập nhật trong app (Android, Windows bản cài) có kiểm tra SHA-256.
 
+[2.0.7]: https://github.com/hidovpn/hido/releases/tag/v2.0.7
 [2.0.6]: https://github.com/hidovpn/hido/releases/tag/v2.0.6
 [2.0.5]: https://github.com/hidovpn/hido/releases/tag/v2.0.5
