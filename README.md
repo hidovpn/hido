@@ -40,6 +40,8 @@
 
 ## Downloads
 
+> **On Android?** The easiest way is **[Google Play](https://play.google.com/store/apps/details?id=com.hido.vpn)** — it updates itself, so there is no file to fetch again. For a direct APK, use the table below.
+
 All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links below point to the current stable release, **v2.0.7**:
 
 | Platform | Format | Architecture | Download |
@@ -91,7 +93,7 @@ All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links belo
 
 | Platform | Supported | Minimum | Distribution |
 |----------|:---------:|---------|--------------|
-| Android | ✅ | Android 7.0 | Direct APK (Releases) · Google Play coming soon |
+| Android | ✅ | Android 7.0 | [Google Play](https://play.google.com/store/apps/details?id=com.hido.vpn) · direct APK (Releases) |
 | macOS | ✅ | macOS 12 Monterey, Apple Silicon | Direct DMG (Releases) |
 | Windows | ✅ | Windows 10 / 11 (x64) | EXE installer or portable ZIP (Releases) |
 | iOS / iPadOS | 🔜 | — | App Store coming soon |

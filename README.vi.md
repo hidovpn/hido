@@ -40,6 +40,8 @@
 
 ## Tải về
 
+> **Dùng Android?** Cách dễ nhất là cài từ **[Google Play](https://play.google.com/store/apps/details?id=com.hido.vpn)** — app tự cập nhật, không phải tải lại file. Muốn bản APK trực tiếp thì lấy ở bảng dưới.
+
 Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đuôi>`**. Link dưới đây là bản ổn định hiện tại, **v2.0.7**:
 
 | Nền tảng | Định dạng | Kiến trúc | Tải về |
@@ -91,7 +93,7 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 
 | Nền tảng | Hỗ trợ | Tối thiểu | Phân phối |
 |----------|:------:|-----------|-----------|
-| Android | ✅ | Android 7.0 | APK trực tiếp (Releases) · sắp có trên Google Play |
+| Android | ✅ | Android 7.0 | [Google Play](https://play.google.com/store/apps/details?id=com.hido.vpn) · APK trực tiếp (Releases) |
 | macOS | ✅ | macOS 12 Monterey, Apple Silicon | DMG trực tiếp (Releases) |
 | Windows | ✅ | Windows 10 / 11 (x64) | Bộ cài EXE hoặc ZIP (Releases) |
 | iOS / iPadOS | 🔜 | — | Sắp có trên App Store |
