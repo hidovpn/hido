@@ -49,7 +49,7 @@ All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links belo
 | **Android** | `.apk` | arm64-v8a (most phones) | [Hido-2.0.9-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-arm64-v8a.apk) |
 | **Android** | `.apk` | armeabi-v7a (older 32-bit phones) | [Hido-2.0.9-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-armeabi-v7a.apk) |
 | **Android** | `.apk` | x86_64 (emulators, Chromebooks) | [Hido-2.0.9-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-x86_64.apk) |
-| **macOS** | `.dmg` | Apple Silicon (M1 and later) · notarized | [Hido-2.0.8-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.8/Hido-2.0.8-macos-arm64.dmg) |
+| **macOS** | `.dmg` | Apple Silicon (M1 and later) · notarized | [Hido-2.0.9-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-macos-arm64.dmg) |
 | **Windows** | `.exe` installer | x64 | [Hido-2.0.9-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64-setup.exe) |
 | **Windows** | `.zip` portable | x64 | [Hido-2.0.9-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64.zip) |
 
@@ -108,7 +108,7 @@ All files are named **`Hido-<version>-<platform>-<arch>.<ext>`**. The links belo
 3. Launch Hido, enter your provider code, sign in, grant the VPN permission and tap **Connect**.
 
 ### macOS
-1. Download **`Hido-2.0.8-macos-arm64.dmg`**, open it and drag **Hido** into **Applications**.
+1. Download **`Hido-2.0.9-macos-arm64.dmg`**, open it and drag **Hido** into **Applications**.
 2. Launch Hido from Applications — the app is signed with Developer ID and notarized by Apple, so it opens normally.
 3. Approve the network / administrator prompt when you turn on TUN mode, then connect.
 
