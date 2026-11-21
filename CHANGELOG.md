@@ -2,6 +2,17 @@
 
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/), đánh số theo [SemVer](https://semver.org/lang/vi/).
 
+## [2.0.9] - 2026-11-22
+### Sửa lỗi / Fixes
+- Cập nhật đăng ký không còn xoá danh sách máy chủ: khi nhà cung cấp trả về nội dung rỗng hoặc không có máy chủ nào, app giữ máy chủ đang dùng và thử lại lần sau (an empty or server-less update no longer wipes your servers).
+- Khi lõi kết nối dừng bất ngờ, nút kết nối báo "Lõi đã dừng" kèm lý do; bấm để khởi động lại và nối lại. Proxy hệ thống được gỡ ngay, máy không mất mạng.
+- Android: báo rõ lý do khi VPN không bật được (chưa cấp quyền VPN, hoặc một ứng dụng khác đang đặt làm VPN luôn bật); bảo vệ các kết nối mở trước lúc VPN lên xong.
+- Windows: bộ cài chỉ dừng các tiến trình Hido trong thư mục cài.
+- Cổng proxy bị đặt về 0 được tự đổi sang cổng dùng được và báo cho bạn; cổng proxy mở được cả khi chưa có cấu hình.
+- Bản cập nhật thiếu file cho máy bạn: app mở trang tải về thay vì báo lỗi.
+- Bộ chứng chỉ gốc được nhúng lại vào lõi trên mọi nền tảng.
+- Ứng dụng tự sửa khi đồng hồ máy bị chỉnh lùi, không còn lỗi lúc thêm cấu hình.
+
 ## [2.0.8] - 2026-11-11
 ### Sửa lỗi / Fixes
 - macOS, Windows: nếu app bị tắt ngang lúc đang kết nối, máy có thể mất mạng vì proxy hệ thống còn trỏ vào Hido. Nay mở lại app sẽ tự gỡ proxy đó; proxy của phần mềm khác không bị đụng tới (a killed run no longer leaves the system proxy pointing at Hido).
@@ -41,6 +52,7 @@
 - Chế độ System Proxy và TUN, tự chọn máy chủ nhanh nhất.
 - Tự cập nhật trong app (Android, Windows bản cài) có kiểm tra SHA-256.
 
+[2.0.9]: https://github.com/hidovpn/hido/releases/tag/v2.0.9
 [2.0.8]: https://github.com/hidovpn/hido/releases/tag/v2.0.8
 [2.0.7]: https://github.com/hidovpn/hido/releases/tag/v2.0.7
 [2.0.6]: https://github.com/hidovpn/hido/releases/tag/v2.0.6
