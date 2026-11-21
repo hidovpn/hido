@@ -52,6 +52,12 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 | **macOS** | `.dmg` | Apple Silicon (M1 trở lên) · đã notarize | [Hido-2.0.9-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-macos-arm64.dmg) |
 | **Windows** | bộ cài `.exe` | x64 | [Hido-2.0.9-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64-setup.exe) |
 | **Windows** | `.zip` không cần cài | x64 | [Hido-2.0.9-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64.zip) |
+| **Linux** | `.deb` | x64 · thử nghiệm | [Hido-2.0.9-linux-amd64.deb](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-amd64.deb) |
+| **Linux** | `.rpm` | x64 · thử nghiệm | [Hido-2.0.9-linux-amd64.rpm](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-amd64.rpm) |
+| **Linux** | `AppImage` | x64 · thử nghiệm | [Hido-2.0.9-linux-amd64.AppImage](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-amd64.AppImage) |
+| **Linux** | `.deb` | arm64 · thử nghiệm | [Hido-2.0.9-linux-arm64.deb](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-arm64.deb) |
+| **Linux** | `.rpm` | arm64 · thử nghiệm | [Hido-2.0.9-linux-arm64.rpm](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-arm64.rpm) |
+| **Linux** | `AppImage` | arm64 · thử nghiệm | [Hido-2.0.9-linux-arm64.AppImage](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-arm64.AppImage) |
 
 > **Không biết chọn file Android nào?** Chọn **arm64-v8a** — hợp với gần như mọi điện thoại vài năm trở lại đây.
 >
