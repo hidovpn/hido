@@ -49,7 +49,7 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 | **Android** | `.apk` | arm64-v8a (hầu hết điện thoại) | [Hido-2.0.9-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-arm64-v8a.apk) |
 | **Android** | `.apk` | armeabi-v7a (máy 32-bit đời cũ) | [Hido-2.0.9-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-armeabi-v7a.apk) |
 | **Android** | `.apk` | x86_64 (giả lập, Chromebook) | [Hido-2.0.9-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-x86_64.apk) |
-| **macOS** | `.dmg` | Apple Silicon (M1 trở lên) · đã notarize | [Hido-2.0.9-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-macos-arm64.dmg) |
+| **macOS** | `.dmg` | Apple Silicon (M1 trở lên) · đã notarize | [Hido-2.0.8-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.8/Hido-2.0.8-macos-arm64.dmg) |
 | **Windows** | bộ cài `.exe` | x64 | [Hido-2.0.9-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64-setup.exe) |
 | **Windows** | `.zip` không cần cài | x64 | [Hido-2.0.9-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64.zip) |
 
@@ -108,7 +108,7 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 3. Mở Hido, nhập mã nhà cung cấp, đăng nhập, cấp quyền VPN rồi bấm **Kết nối**.
 
 ### macOS
-1. Tải **`Hido-2.0.9-macos-arm64.dmg`**, mở ra và kéo **Hido** vào **Applications**.
+1. Tải **`Hido-2.0.8-macos-arm64.dmg`**, mở ra và kéo **Hido** vào **Applications**.
 2. Mở Hido trong Applications — app đã ký Developer ID và được Apple công chứng (notarize) nên mở bình thường.
 3. Đồng ý khi được hỏi quyền mạng / quản trị lúc bật TUN, rồi kết nối.
 
