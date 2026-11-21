@@ -41,6 +41,12 @@ for f in "$@"; do
     *amd64.zip) p="Windows x64 — portable";;
     *.dmg)      p="macOS";;
     *.apk)      p="Android";;
+    *linux-amd64.deb)      p="Linux x64 — .deb (thử nghiệm / experimental)";;
+    *linux-amd64.rpm)      p="Linux x64 — .rpm (thử nghiệm / experimental)";;
+    *linux-amd64.AppImage) p="Linux x64 — AppImage (thử nghiệm / experimental)";;
+    *linux-arm64.deb)      p="Linux arm64 — .deb (thử nghiệm / experimental)";;
+    *linux-arm64.rpm)      p="Linux arm64 — .rpm (thử nghiệm / experimental)";;
+    *linux-arm64.AppImage) p="Linux arm64 — AppImage (thử nghiệm / experimental)";;
     *)          p="";;
   esac
   row="| $p | [\`$n\`](https://github.com/$REPO/releases/download/$TAG/$n) |"
