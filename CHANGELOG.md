@@ -2,6 +2,25 @@
 
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/), đánh số theo [SemVer](https://semver.org/lang/vi/).
 
+## [2.0.10] - 2026-11-28
+### Mới / New
+- Lõi kết nối cập nhật theo mihomo của FlClash 0.9.5 (core updated to the FlClash 0.9.5 mihomo).
+- WireGuard, Hysteria2 và TUIC tự kết nối lại khi đổi mạng (Wi‑Fi ↔ 4G, đổi Wi‑Fi) (reconnect after a network change).
+- Android: file `.apk` nhẹ hơn khoảng 7 MB; bản Google Play chiếm ít bộ nhớ máy hơn.
+
+### Sửa lỗi / Fixes
+- Android (vivo, OPPO, realme, iQOO): trang "Ứng dụng dùng VPN" không còn trống — app xin quyền xem danh sách ứng dụng, nếu bị từ chối thì nói lý do và có nút mở Cài đặt.
+- DNS mặc định chuyển sang DNS quốc tế để máy chủ phân giải ổn định hơn; khôi phục bản sao lưu cũ cũng được áp các thay đổi này.
+- Danh sách đi thẳng mặc định không còn bắt nhầm địa chỉ công cộng 172.2.x và 172.200–255.x; sửa tên máy kiểm tra mạng của Windows (msftncsi).
+- Cập nhật đăng ký: đọc đúng hạn dùng gửi theo mili‑giây, giữ dung lượng đã biết khi nhà cung cấp không gửi lại, không để file tải dở trong thư mục tạm.
+- Mật khẩu có ký tự đặc biệt trong link chia sẻ được đọc đúng; link HTTPUpgrade chia sẻ đúng loại.
+- Ngày cuối của gói đếm ngược theo giờ và phút.
+- Máy tính: khởi động lại lõi được sau khi bị treo lúc mở; xin quyền TUN trước khi khởi động lại.
+- macOS: tìm đúng dịch vụ mạng (không nhầm en10 với en1).
+- Windows: lệnh sao chép biến proxy chạy đúng trong PowerShell.
+- Nhật ký không còn ghi link đăng ký và mã phiên của trình trợ giúp.
+- Linux (thử nghiệm): AppImage tự chạy khi đăng nhập đúng cách, trả lại proxy của máy khi thoát; GNOME/KDE nhận đúng danh sách đi thẳng.
+
 ## [2.0.9] - 2026-11-22
 ### Sửa lỗi / Fixes
 - Cập nhật đăng ký không còn xoá danh sách máy chủ: khi nhà cung cấp trả về nội dung rỗng hoặc không có máy chủ nào, app giữ máy chủ đang dùng và thử lại lần sau (an empty or server-less update no longer wipes your servers).
@@ -52,6 +71,7 @@
 - Chế độ System Proxy và TUN, tự chọn máy chủ nhanh nhất.
 - Tự cập nhật trong app (Android, Windows bản cài) có kiểm tra SHA-256.
 
+[2.0.10]: https://github.com/hidovpn/hido/releases/tag/v2.0.10
 [2.0.9]: https://github.com/hidovpn/hido/releases/tag/v2.0.9
 [2.0.8]: https://github.com/hidovpn/hido/releases/tag/v2.0.8
 [2.0.7]: https://github.com/hidovpn/hido/releases/tag/v2.0.7

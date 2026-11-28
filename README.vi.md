@@ -42,22 +42,22 @@
 
 > **Dùng Android?** Cách dễ nhất là cài từ **[Google Play](https://play.google.com/store/apps/details?id=com.hido.vpn)** — app tự cập nhật, không phải tải lại file. Muốn bản APK trực tiếp thì lấy ở bảng dưới.
 
-Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đuôi>`**. Link dưới đây là bản ổn định hiện tại, **v2.0.9**:
+Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đuôi>`**. Link dưới đây là bản ổn định hiện tại, **v2.0.10**:
 
 | Nền tảng | Định dạng | Kiến trúc | Tải về |
 | :-- | :-- | :-- | :-- |
-| **Android** | `.apk` | arm64-v8a (hầu hết điện thoại) | [Hido-2.0.9-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-arm64-v8a.apk) |
-| **Android** | `.apk` | armeabi-v7a (máy 32-bit đời cũ) | [Hido-2.0.9-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-armeabi-v7a.apk) |
-| **Android** | `.apk` | x86_64 (giả lập, Chromebook) | [Hido-2.0.9-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-android-x86_64.apk) |
-| **macOS** | `.dmg` | Apple Silicon (M1 trở lên) · đã notarize | [Hido-2.0.9-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-macos-arm64.dmg) |
-| **Windows** | bộ cài `.exe` | x64 | [Hido-2.0.9-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64-setup.exe) |
-| **Windows** | `.zip` không cần cài | x64 | [Hido-2.0.9-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-windows-amd64.zip) |
-| **Linux** | `.deb` | x64 · thử nghiệm | [Hido-2.0.9-linux-amd64.deb](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-amd64.deb) |
-| **Linux** | `.rpm` | x64 · thử nghiệm | [Hido-2.0.9-linux-amd64.rpm](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-amd64.rpm) |
-| **Linux** | `AppImage` | x64 · thử nghiệm | [Hido-2.0.9-linux-amd64.AppImage](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-amd64.AppImage) |
-| **Linux** | `.deb` | arm64 · thử nghiệm | [Hido-2.0.9-linux-arm64.deb](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-arm64.deb) |
-| **Linux** | `.rpm` | arm64 · thử nghiệm | [Hido-2.0.9-linux-arm64.rpm](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-arm64.rpm) |
-| **Linux** | `AppImage` | arm64 · thử nghiệm | [Hido-2.0.9-linux-arm64.AppImage](https://github.com/hidovpn/hido/releases/download/v2.0.9/Hido-2.0.9-linux-arm64.AppImage) |
+| **Android** | `.apk` | arm64-v8a (hầu hết điện thoại) | [Hido-2.0.10-android-arm64-v8a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-android-arm64-v8a.apk) |
+| **Android** | `.apk` | armeabi-v7a (máy 32-bit đời cũ) | [Hido-2.0.10-android-armeabi-v7a.apk](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-android-armeabi-v7a.apk) |
+| **Android** | `.apk` | x86_64 (giả lập, Chromebook) | [Hido-2.0.10-android-x86_64.apk](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-android-x86_64.apk) |
+| **macOS** | `.dmg` | Apple Silicon (M1 trở lên) · đã notarize | [Hido-2.0.10-macos-arm64.dmg](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-macos-arm64.dmg) |
+| **Windows** | bộ cài `.exe` | x64 | [Hido-2.0.10-windows-amd64-setup.exe](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-windows-amd64-setup.exe) |
+| **Windows** | `.zip` không cần cài | x64 | [Hido-2.0.10-windows-amd64.zip](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-windows-amd64.zip) |
+| **Linux** | `.deb` | x64 · thử nghiệm | [Hido-2.0.10-linux-amd64.deb](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-linux-amd64.deb) |
+| **Linux** | `.rpm` | x64 · thử nghiệm | [Hido-2.0.10-linux-amd64.rpm](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-linux-amd64.rpm) |
+| **Linux** | `AppImage` | x64 · thử nghiệm | [Hido-2.0.10-linux-amd64.AppImage](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-linux-amd64.AppImage) |
+| **Linux** | `.deb` | arm64 · thử nghiệm | [Hido-2.0.10-linux-arm64.deb](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-linux-arm64.deb) |
+| **Linux** | `.rpm` | arm64 · thử nghiệm | [Hido-2.0.10-linux-arm64.rpm](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-linux-arm64.rpm) |
+| **Linux** | `AppImage` | arm64 · thử nghiệm | [Hido-2.0.10-linux-arm64.AppImage](https://github.com/hidovpn/hido/releases/download/v2.0.10/Hido-2.0.10-linux-arm64.AppImage) |
 
 > **Không biết chọn file Android nào?** Chọn **arm64-v8a** — hợp với gần như mọi điện thoại vài năm trở lại đây.
 >
@@ -109,17 +109,17 @@ Mọi file đặt tên **`Hido-<phiên bản>-<nền tảng>-<kiến trúc>.<đu
 ## Hướng dẫn cài đặt
 
 ### Android
-1. Tải **`Hido-2.0.9-android-arm64-v8a.apk`** ở [trang Releases](https://github.com/hidovpn/hido/releases/latest).
+1. Tải **`Hido-2.0.10-android-arm64-v8a.apk`** ở [trang Releases](https://github.com/hidovpn/hido/releases/latest).
 2. Mở file, cho phép **Cài ứng dụng không rõ nguồn gốc** khi được hỏi.
 3. Mở Hido, nhập mã nhà cung cấp, đăng nhập, cấp quyền VPN rồi bấm **Kết nối**.
 
 ### macOS
-1. Tải **`Hido-2.0.9-macos-arm64.dmg`**, mở ra và kéo **Hido** vào **Applications**.
+1. Tải **`Hido-2.0.10-macos-arm64.dmg`**, mở ra và kéo **Hido** vào **Applications**.
 2. Mở Hido trong Applications — app đã ký Developer ID và được Apple công chứng (notarize) nên mở bình thường.
 3. Đồng ý khi được hỏi quyền mạng / quản trị lúc bật TUN, rồi kết nối.
 
 ### Windows
-1. Tải **`Hido-2.0.9-windows-amd64-setup.exe`** ở [trang Releases](https://github.com/hidovpn/hido/releases/latest).
+1. Tải **`Hido-2.0.10-windows-amd64-setup.exe`** ở [trang Releases](https://github.com/hidovpn/hido/releases/latest).
 2. Chạy bộ cài. Nếu SmartScreen hiện: **Thông tin thêm → Vẫn chạy**, rồi đồng ý UAC.
 3. Mở Hido, nhập mã nhà cung cấp, đăng nhập và kết nối.
 
@@ -132,7 +132,7 @@ shasum -a 256 -c SHA256SUMS --ignore-missing
 ```
 **Windows (PowerShell)**
 ```powershell
-Get-FileHash .\Hido-2.0.9-windows-amd64-setup.exe -Algorithm SHA256
+Get-FileHash .\Hido-2.0.10-windows-amd64-setup.exe -Algorithm SHA256
 ```
 So kết quả với dòng tương ứng trong `SHA256SUMS`.
 
